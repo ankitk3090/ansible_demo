@@ -1,0 +1,8 @@
+---
+- hosts: 172.27.59.90
+  remote_user: student
+  sudo: yes
+
+  tasks: 
+    - name: ping all remote machines
+      action: ping
